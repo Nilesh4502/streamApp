@@ -1,0 +1,83 @@
+[
+    {
+      "Room": {
+        "id": "room1",
+        "type": "public",
+        "category": "music",
+        "imageurl": "https://picsum.photos/id/10/200/300",
+        "channelName":"video"
+        
+      }
+   },
+    {
+      "Room": {
+        "id": "room2",
+        "type": "public",
+        "category": "games",
+        "imageurl": "https://picsum.photos/id/11/200/300",
+        "channelName":"games"
+        
+      }
+    },
+    {
+      "Room": {
+        "id": "room3",
+        "type": "public",
+        "category": "sports",
+        "imageurl": "https://picsum.photos/id/12/200/300",
+        "channelName":"sports"
+        
+      }
+    },
+    {
+      "Room": {
+        "id": "room4",
+        "type": "public",
+        "category": "movies",
+        "imageurl": "https://picsum.photos/id/13/200/300",
+        "channelName":"movies"
+        
+      }
+    },
+    {
+      "Room": {
+        "id": "room5",
+        "type": "public",
+        "category": "movies",
+        "imageurl": "https://picsum.photos/id/14/200/300",
+        "channelName":"movies"
+      }
+    },
+
+    {
+      "Room": {
+        "id": "room6",
+        "type": "public",
+        "category": "movies",
+        "imageurl": "https://picsum.photos/id/15/200/300",
+        "channelName":"movies"
+       
+      }
+    },
+    {
+      "Room": {
+        "id": "room7",
+        "type": "public",
+        "category": "music",
+        "imageurl": "https://picsum.photos/id/16/200/300",
+        "channelName":"music"
+       
+      }
+   },
+    {
+      "Room": {
+        "id": "room8",
+        "type": "public",
+        "category": "games",
+        "imageurl": "https://picsum.photos/id/17/200/300",
+        "channelName":"games"
+       
+      }
+    }
+  ]
+  
