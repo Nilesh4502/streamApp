@@ -57,6 +57,7 @@ const join =async()=>{
 
 
 const styles = StyleSheet.create({
+
   container: {
     backgroundColor: '#fff',
     borderRadius: 8,
@@ -70,7 +71,7 @@ const styles = StyleSheet.create({
   },
   button: {
     alignItems: 'center',
-    backgroundColor: '#DDDDDD',
+    backgroundColor: '#ff5722',
     padding: 10,
   },
   image: {

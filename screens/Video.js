@@ -77,11 +77,7 @@ const VideoScreen = ({ navigation,route }) => {
                 setRemoteUid((prevRemoteUid) => prevRemoteUid.filter((uid) => uid !== Uid));
               },
               
-            onUserMuteAudio: (_connection, Uid, audio) => {
-                if (Uid === remoteUid) {
-                  SetAudio(!audio);
-                }
-              }
+            
             
         });
         agoraEngineRef.current.setLogFilter(512);
@@ -171,7 +167,7 @@ const VideoScreen = ({ navigation,route }) => {
                 }
                 else{
                     await agoraEngineRef.current?.disableVideo();
-                    setCamon(true);
+                    setCamon(false);
                 }
 
         }

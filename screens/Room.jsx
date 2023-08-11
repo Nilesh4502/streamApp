@@ -29,6 +29,7 @@ function RoomScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
+    <View style={styles.box}>
       <TouchableOpacity style={styles.button} onPress={signOut}>
         <Text>signOut</Text>
       </TouchableOpacity>
@@ -37,6 +38,7 @@ function RoomScreen({ navigation }) {
         renderItem={renderItem}
         keyExtractor={(item) => item.Room.id}
       />
+      </View>
     </View>
   );
 }
@@ -44,13 +46,16 @@ function RoomScreen({ navigation }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#004e92',
+   
+  },
+  box:{
     padding: 10,
     margin: 10,
   },
   button: {
     alignItems: 'center',
-    backgroundColor: '#DDDDDD',
+    backgroundColor: '#ff5722',
     padding: 10,
     marginBottom: 10,
   },
